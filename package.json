@@ -1,0 +1,22 @@
+{
+  "name": "@veva/monorepa",
+  "version": "1.0.5",
+  "description": "Meta bundler",
+  "private": true,
+  "workspaces": [
+    "configs/*",
+    "examples/*",
+    "packages/*",
+    "plugins/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.1.8"
+  },
+  "author": "Pan Alexey <pan-alexey@live.com>",
+  "license": "ISC",
+  "scripts": {
+    "version": "lerna version --no-private",
+    "publish": "lerna publish --no-private"
+  }
+}
