@@ -1,0 +1,44 @@
+# Config Workspace
+
+This workspace is dedicated to storing and managing shared configuration packages used across the project. It contains packages that provide settings for tools like ESLint and Prettier. These configurations help ensure consistency and best practices throughout the entire monorepo.
+
+## Structure
+
+The `config/` directory in this workspace includes the following packages:
+
+- **`@veva/eslint-config`**: Contains the shared ESLint rules and settings used for linting JavaScript and TypeScript code across the project.
+- **`@veva/prettier-config`**: Provides the Prettier settings to enforce consistent code formatting throughout the codebase.
+
+## Usage
+
+To use these shared configurations in your project, install the corresponding package and extend the configurations as needed. Below are examples of how you can do this:
+
+### Using `@veva/eslint-config`
+
+In your workspace's `.eslintrc.js`:
+
+```javascript
+module.exports = {
+  extends: ['@veva/eslint-config'],
+  // Add or override any rules specific to this workspace
+};
+```
+
+### Using `@veva/prettier-config`
+
+In your workspace's `prettier.config.js`:
+
+```javascript
+module.exports = {
+  ...require('@veva/prettier-config'),
+  // Add or override any settings specific to this workspace
+};
+```
+
+## Contribution
+
+If you need to update or modify these configuration packages, ensure that the changes are compatible with all workspaces and follow the project's contribution guidelines. After making changes, test them thoroughly to prevent any issues across the monorepo.
+
+---
+
+By centralizing these configurations into packages, we maintain consistency, reduce duplication, and make it easier to manage updates across the entire project.
