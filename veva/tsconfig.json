@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "skipLibCheck": false,
+      "jsx": "react",
+      "lib": ["dom", "esnext"],
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": true,
+      "resolveJsonModule": true,
+      "module": "commonjs",
+      "target": "esnext",
+      "moduleResolution": "node",
+      "types": [
+        "node",
+      ],
+    },
+    "files": [
+
+    ]
+  }
