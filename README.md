@@ -1,2 +1,0 @@
-# veva
-Meta bundler
