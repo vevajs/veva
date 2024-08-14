@@ -1,5 +1,5 @@
 {
-    "name": "@veva/prettier-config",
+    "name": "@vipack/prettier-config",
     "version": "1.0.0",
     "main": "index.js",
     "publishConfig": {
