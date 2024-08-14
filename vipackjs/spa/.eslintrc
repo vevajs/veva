@@ -1,0 +1,6 @@
+{
+    "extends": [
+      "@vipack/eslint-config"
+    ],
+    "ignorePatterns": ["dist/*"]
+}

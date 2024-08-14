@@ -4,18 +4,23 @@
   "description": "Meta bundler",
   "private": true,
   "workspaces": [
-      "config/**",
+      "configs/**",
       "plugins/**",
       "vipackjs/**",
       "vipack"
   ],
   "devDependencies": {
-    "typescript": "5.5.4"
+    "typescript": "5.5.4",
+    "@types/node": "^20.14.6",
+    "@vipack/eslint-config": "latest",
+    "@vipack/prettier-config": "latest"
   },
   "author": "Pan Alexey <pan-alexey@live.com>",
   "license": "ISC",
   "scripts": {
+    "build:vipackjs": "npm --workspace=vipackjs run build",
     "version": "lerna version --no-private",
     "publish": "lerna publish --no-private"
+
   }
 }

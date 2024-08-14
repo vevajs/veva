@@ -2,9 +2,6 @@
     "name": "@vipack/eslint-config",
     "version": "1.0.0",
     "main": "index.js",
-    "publishConfig": {
-      "access": "public"
-    },
     "dependencies": {
       "typescript": "*",
       "@typescript-eslint/eslint-plugin": "^8.1.0",

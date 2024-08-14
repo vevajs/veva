@@ -15,9 +15,9 @@
         "lint:fix": "npm run lint --fix"
     },
     "devDependencies": {
-        "@types/node": "^18.6.2",
-        "@veva/eslint-config": "^1.0.0",
-        "@veva/prettier-config": "^1.0.0",
-        "typescript": "^4.9.5"
+        "@types/node": "*",
+        "@veva/eslint-config":"*",
+        "@veva/prettier-config": "*",
+        "typescript": "*"
     }
 }
