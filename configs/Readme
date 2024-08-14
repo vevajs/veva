@@ -6,31 +6,31 @@ This workspace is dedicated to storing and managing shared configuration package
 
 The `config/` directory in this workspace includes the following packages:
 
-- **`@veva/eslint-config`**: Contains the shared ESLint rules and settings used for linting JavaScript and TypeScript code across the project.
-- **`@veva/prettier-config`**: Provides the Prettier settings to enforce consistent code formatting throughout the codebase.
+- **`@vipack/eslint-config`**: Contains the shared ESLint rules and settings used for linting JavaScript and TypeScript code across the project.
+- **`@vipack/prettier-config`**: Provides the Prettier settings to enforce consistent code formatting throughout the codebase.
 
 ## Usage
 
 To use these shared configurations in your project, install the corresponding package and extend the configurations as needed. Below are examples of how you can do this:
 
-### Using `@veva/eslint-config`
+### Using `@vipack/eslint-config`
 
 In your workspace's `.eslintrc.js`:
 
 ```javascript
 module.exports = {
-  extends: ['@veva/eslint-config'],
+  extends: ['@vipack/eslint-config'],
   // Add or override any rules specific to this workspace
 };
 ```
 
-### Using `@veva/prettier-config`
+### Using `@vipack/prettier-config`
 
 In your workspace's `prettier.config.js`:
 
 ```javascript
 module.exports = {
-  ...require('@veva/prettier-config'),
+  ...require('@vipack/prettier-config'),
   // Add or override any settings specific to this workspace
 };
 ```

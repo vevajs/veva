@@ -1,7 +1,7 @@
 import defineConfig from 'veva';
 // import app from '@veva/spa';
 // import app from '@veva/ssr';
-import app from '@veva/ssr-mutli';
+import app from '@vipack/ssr-mutli';
 
 export default defineConfig(async () => {
     return ssrMutli({

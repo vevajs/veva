@@ -1,6 +1,0 @@
-{
-    "extends": [
-      "@veva/eslint-config"
-    ],
-    "ignorePatterns": ["dist/*"]
-}

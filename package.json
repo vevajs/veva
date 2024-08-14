@@ -1,14 +1,16 @@
 {
-  "name": "@veva/monorepa",
+  "name": "@vipack/monorepo",
   "version": "1.0.5",
   "description": "Meta bundler",
   "private": true,
   "workspaces": [
       "config/**",
-      "veva"
+      "plugins/**",
+      "vipackjs/**",
+      "vipack"
   ],
   "devDependencies": {
-
+    "typescript": "5.5.4"
   },
   "author": "Pan Alexey <pan-alexey@live.com>",
   "license": "ISC",
