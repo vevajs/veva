@@ -11,8 +11,7 @@
     "author": "Pan Alexey",
     "license": "MIT",
     "scripts": {
-        "lint": "eslint ./ --ext .ts,.tsx,.js,.jsx,.prettierrc,.eslintrc",
-        "lint:fix": "npm run lint --fix"
+        "lint": "eslint ./"
     },
     "devDependencies": {
         "@types/node": "*",

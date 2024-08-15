@@ -1,3 +1,7 @@
-export const name = "vipackjs/core";
+export const name = 'vipackjs/core';
 
-export default "vipackjs"
+const a = {
+  name: 'vipackjs/core',
+};
+
+export default 'vipackjs';

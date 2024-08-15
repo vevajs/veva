@@ -18,6 +18,7 @@
   "author": "Pan Alexey <pan-alexey@live.com>",
   "license": "ISC",
   "scripts": {
+    "lint": "npm --workspace=vipackjs run lint",
     "build:vipackjs": "npm --workspace=vipackjs run build",
     "version": "lerna version --no-private",
     "publish": "lerna publish --no-private"

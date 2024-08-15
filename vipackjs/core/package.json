@@ -10,12 +10,15 @@
   "license": "MIT",
   "description": "",
   "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "build": "tsc src/index.ts --outDir dist --declaration"
   },
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
+    "typescript": "^5.5.4"
   },
   "devDependencies": {
-    "typescript": "*",
     "@types/node": "*",
     "@vipack/eslint-config": "*",
     "@vipack/prettier-config": "*"
